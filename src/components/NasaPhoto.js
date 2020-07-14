@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
+import { shorten, full } from "../utils.js";
 
-const apiKey = "muFYmKdweXXElHS5DuqrRp8lHG3bGkXGubSFUNit";
+const apiKey = 'kt7ORKopOufpMdFLtx6rq3ug8rtBGUv8mVf3aIPz'
 
 export default function NasaPhoto() {
   const [photoData, setPhotoData] = useState(null);
+  const [desc, setDesc] = useState('');
 
   useEffect(() => {
-    fetchPhoto();
-
     async function fetchPhoto() {
       const res = await fetch(
         `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
@@ -16,7 +16,15 @@ export default function NasaPhoto() {
       const data = await res.json();
       setPhotoData(data);
     }
+    fetchPhoto();
   }, []);
+
+  const read_more = (str) => {
+    const read_more_btn = document.getElementById('rm_btn');
+    read_more_btn.classList.add('d-none')
+    const para = full(str)
+    setDesc(para)
+  }
 
   if (!photoData) return <div />;
 
@@ -44,7 +52,9 @@ export default function NasaPhoto() {
       <div>
         <h1>{photoData.title}</h1>
         <p className="date">{photoData.date}</p>
-        <p className="explanation">{photoData.explanation}</p>
+        <p className="explanation">{shorten(photoData.explanation)}
+          {desc === "" ? <span id="rm_btn" className="read-more" onClick={() => read_more(photoData.explanation)}>...Read More</span> : desc}
+        </p>
       </div>
     </div>
     </>
