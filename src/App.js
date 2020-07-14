@@ -9,7 +9,7 @@ export default function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route exact component={Home} path="/" />
+          <Route exact component={Home} path="/home" />
           <Route component={NasaPhoto} path="/nasaphoto" />
         </Switch>
       </Router>

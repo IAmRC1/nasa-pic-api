@@ -2,7 +2,7 @@
   "name": "nasa-pic-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iamrc1.github.io/nasa-pic-api",
+  "homepage": "http://iamrc1.github.io/nasa-pic-api/home",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
