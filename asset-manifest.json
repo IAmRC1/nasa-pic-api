@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nasa-pic-api/static/css/main.9cf55827.chunk.css",
-    "main.js": "/nasa-pic-api/static/js/main.4924b491.chunk.js",
-    "main.js.map": "/nasa-pic-api/static/js/main.4924b491.chunk.js.map",
+    "main.css": "/nasa-pic-api/static/css/main.6bbc2b80.chunk.css",
+    "main.js": "/nasa-pic-api/static/js/main.02b78a53.chunk.js",
+    "main.js.map": "/nasa-pic-api/static/js/main.02b78a53.chunk.js.map",
     "runtime-main.js": "/nasa-pic-api/static/js/runtime-main.b7bbf494.js",
     "runtime-main.js.map": "/nasa-pic-api/static/js/runtime-main.b7bbf494.js.map",
-    "static/js/2.e0b89097.chunk.js": "/nasa-pic-api/static/js/2.e0b89097.chunk.js",
-    "static/js/2.e0b89097.chunk.js.map": "/nasa-pic-api/static/js/2.e0b89097.chunk.js.map",
+    "static/js/2.5bcc12ef.chunk.js": "/nasa-pic-api/static/js/2.5bcc12ef.chunk.js",
+    "static/js/2.5bcc12ef.chunk.js.map": "/nasa-pic-api/static/js/2.5bcc12ef.chunk.js.map",
     "index.html": "/nasa-pic-api/index.html",
-    "precache-manifest.a9c88d018b36df08a35d7611b758b3fc.js": "/nasa-pic-api/precache-manifest.a9c88d018b36df08a35d7611b758b3fc.js",
+    "precache-manifest.08249c8634f08b1b583141cd53672c4c.js": "/nasa-pic-api/precache-manifest.08249c8634f08b1b583141cd53672c4c.js",
     "service-worker.js": "/nasa-pic-api/service-worker.js",
-    "static/css/main.9cf55827.chunk.css.map": "/nasa-pic-api/static/css/main.9cf55827.chunk.css.map",
-    "static/js/2.e0b89097.chunk.js.LICENSE.txt": "/nasa-pic-api/static/js/2.e0b89097.chunk.js.LICENSE.txt"
+    "static/css/main.6bbc2b80.chunk.css.map": "/nasa-pic-api/static/css/main.6bbc2b80.chunk.css.map",
+    "static/js/2.5bcc12ef.chunk.js.LICENSE.txt": "/nasa-pic-api/static/js/2.5bcc12ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b7bbf494.js",
-    "static/js/2.e0b89097.chunk.js",
-    "static/css/main.9cf55827.chunk.css",
-    "static/js/main.4924b491.chunk.js"
+    "static/js/2.5bcc12ef.chunk.js",
+    "static/css/main.6bbc2b80.chunk.css",
+    "static/js/main.02b78a53.chunk.js"
   ]
 }
