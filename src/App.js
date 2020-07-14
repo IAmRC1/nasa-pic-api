@@ -7,7 +7,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact component={Home} path="/" />
           <Route component={NasaPhoto} path="/nasaphoto" />

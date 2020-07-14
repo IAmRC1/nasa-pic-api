@@ -2,9 +2,11 @@
 
 body {
   font-family: 'Righteous', cursive;
+  padding: 0;
+  margin: 0;
   color: #d14f4f;
-  line-height: 1.7;
-  font-size: 19px;
+  line-height: 1.5;
+  font-size: 1em;
   background-color: #222222;
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23424242' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
@@ -14,7 +16,9 @@ body {
 .navbar {
   background-color: rgba(22, 22, 22, 0.8);
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .link {
@@ -24,6 +28,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   transition: 0.3s ease all;
+  margin-left: 1rem;
 }
 
 .link:hover {
@@ -42,19 +47,20 @@ body {
 
 .nasa-photo img {
   width: 50%;
+  max-width: 100%;
+  height: auto;
   margin-right: 50px;
   object-fit: contain;
-  max-height: 80vh;
+  max-height: 70vh;
 }
 
 .nasa-photo h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  font-size: calc(16px + 2vw);
 }
 
 .nasa-photo .date {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .nasa-photo .explanation {
@@ -73,13 +79,6 @@ body {
   }
 }
 
-.home {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
 .home-link {
   font-size: 40px;
   background: #f59494;
@@ -89,6 +88,10 @@ body {
   text-decoration: none;
   transition: 0.3s ease all;
   text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home-link:hover {
@@ -100,9 +103,10 @@ body {
   text-decoration: underline;
   cursor: pointer;
   transition: all 0.4s ease;
+  color: #d14f4f;
 }
 .read-more:hover{
-  color: #d14f4f;
+  color: #d14f4f95;
 }
 .d-none{
   display: none;
